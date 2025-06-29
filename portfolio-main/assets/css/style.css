@@ -333,7 +333,7 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 .info-content .name {
@@ -915,13 +915,15 @@ main {
   align-items: center;
   gap: 6px;
   margin-left:10px;
-  color: purple;
+  color: white;
+  font-weight: bold;
+
   font-size: 1rem;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .live-hover-btn:hover {
-  transform: scale(1.05);
+  transform: scaleY(1.05);
 }
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
 
@@ -1275,6 +1277,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     height:100%;   
     display: block;  
 }
+
+.avatar-box img{
+  border-radius: 50%;
+  height: 70px;
+  width:70px;
+}
+
 }
 @media (min-width: 450px) {
 
