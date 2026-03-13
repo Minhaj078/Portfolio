@@ -1890,10 +1890,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px;  /* Set a fixed width */
-  height: 150px; /* Set a fixed height, making it equal to width for a perfect circle */
-  object-fit: cover; /* Ensures the image covers the area, cropping if necessary */
-  border-radius: 50%;}
+  .avatar-box img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    display:block;
+  }
 
   .info-content .name {
     white-space: nowrap;
@@ -1937,4 +1940,35 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+/*-----------------------------------*\
+  #TECH STACK IMPROVEMENTS
+\*-----------------------------------*/
+
+.tech-icons{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(70px,1fr));
+  gap:15px;
+  align-items:center;
+}
+
+.tech-icons img,
+.tech-icons svg{
+  width:60px;
+  height:60px;
+  padding:8px;
+  border-radius:10px;
+
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border:1px solid rgba(255,255,255,0.15);
+
+  transition: all 0.3s ease;
+}
+
+.tech-icons img:hover,
+.tech-icons svg:hover{
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }

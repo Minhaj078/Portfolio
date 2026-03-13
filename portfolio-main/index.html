@@ -1,636 +1,750 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhaj Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minhaj Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="../portfolio-main/assets/images/Professional_IMG.png"
+              alt="Minhajuddin Ahmad"
+            />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Minhajuddin Ahmad</h1>
 
-        <figure class="avatar-box">
-          <img src="./assets/images/Untitled design (8).jpg" alt="Minhajuddin Ahmad" width="80">
-        </figure>
+            <p class="title">Full Stack developer</p>
+          </div>
 
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Minhajuddin Ahmad</h1>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-          <p class="title">Full Stack developer</p>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="mailto:minhajahmad0100@gmail.com" class="contact-link"
+                  >minhajahmad0100@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+                <a href="" class="contact-link">9142247205</a>
+              </div>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-              <a href="mailto:minhajahmad0100@example.com" class="contact-link">minhajahmad0100@gamil.com</a>
-            </div>
+                <address>Punjab, India</address>
+              </div>
+            </li>
+          </ul>
 
-          </li>
+          <div class="separator"></div>
 
-          <li class="contact-item">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/Minhaj078" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/minhaj-ahmad/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+            <li class="social-item">
+              <a href="./assets/images/Minhajuddin_CV.pdf" class="social-link">
+                <ion-icon name="document"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-              <a href="" class="contact-link">XXXXXXXXX</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Punjab, India</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/Minhaj078" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://x.com/mtjbvs65523" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/rizz__078/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/minhaj-ahmad/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="./assets/images/Minhaj's cv.pdf" class="social-link">
-          <ion-icon name="document"></ion-icon>
-            </a>
-          </li>
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              Hello! I’m Minhaj, a third-year Computer Science student and
+              passionate Full Stack & Backend Developer who enjoys building
+              scalable and efficient applications.
+            </p>
 
-        <section class="about-text">
-          <p>Hello! I’m Minhaj, a second-year Computer Science student and passionate full-stack developer.</p>
-          <p>I specialize in building clean, responsive, and dynamic web applications using the MERN stack. Lately,
-            I’ve been diving deep into authentication systems, database security, and backend logic.</p>
-          <li>🤝 I’m looking for opportunities as a Software Engineer</li>
-          <li>👯 I’m looking to collaborate on Web Development Projects</li>
-          <li>🔐 Experienced with user authentication using JWT, bcrypt, and session-based systems</li>
-          <li>🗃️ Hands-on with MongoDB (NoSQL) and relational databases like MySQL/PostgreSQL</li>
-          <li>🔧 Comfortable working with REST APIs, version control (Git), and modern development tools</li>
-          <li>🚀 Quick learner, team-oriented, and always eager to explore deeper backend concepts</li>
-          <li>🍕 Fun fact: Debugging with pizza is my superpower</li>
-        </section>
+            <p>
+              I specialize in developing clean, responsive web applications
+              using the MERN stack, while also working extensively with backend
+              frameworks like Django and FastAPI. I enjoy designing secure
+              authentication systems, building REST APIs, and working with
+              databases.
+            </p>
 
+            <p>
+              Beyond web development, I actively explore Machine Learning and AI
+              technologies. I have built ML-based projects and am currently
+              learning about LLM-powered applications and AI agents to integrate
+              intelligent features into modern software systems.
+            </p>
 
-        <!--
+            <ul>
+              <li>
+                💼 Currently seeking opportunities as a Software Engineer /
+                Backend Developer
+              </li>
+
+              <li>
+                ⚡ Skilled in MERN stack development (MongoDB, Express, React,
+                Node.js)
+              </li>
+
+              <li>
+                🐍 Backend development using Python frameworks like Django and
+                FastAPI
+              </li>
+
+              <li>
+                🔐 Experienced with authentication systems using JWT, bcrypt,
+                and session-based security
+              </li>
+
+              <li>
+                🗄️ Strong database experience with MongoDB, MySQL, and
+                PostgreSQL
+              </li>
+
+              <li>
+                📊 Built Machine Learning projects using Python libraries like
+                NumPy, Pandas, Matplotlib and scikit-learn
+              </li>
+
+              <li>
+                🤖 Exploring LLM-based applications, AI agents, and intelligent
+                backend systems
+              </li>
+
+              <li>
+                🧠 Practicing Data Structures & Algorithms for problem-solving
+                and coding interviews
+              </li>
+
+              <li>
+                🐧 Comfortable working with Linux systems and development tools
+              </li>
+
+              <li>
+                🚀 Quick learner, team-oriented, and always eager to explore
+                deeper backend technologies
+              </li>
+
+              <li>🍕 Fun fact: Debugging with pizza is still my superpower</li>
+            </ul>
+          </section>
+
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <h3 class="h3 service-title">My Daily Code Grind</h3>
+            <a href="https://leetcode.com/u/Minhaj_078/">
+              <img
+                class="lc-bar-img"
+                src="./assets/images/myLC.png"
+                alt="leetcode-stats-bar"
+              />
+            </a>
+          </section>
 
-          <h3 class="h3 service-title">My Daily Code Grind</h3>
-          <a href="https://leetcode.com/u/Minhaj_078/">
-            <img class="lc-bar-img" src="./assets/images/myLC.png" alt="leetcode-stats-bar">
-          </a>
-
-        </section>
-
-        <!--
+          <!--
           - testimonials modal
         -->
 
-        <div class="modal-container" data-modal-container>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
 
-          <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </section>
+          </div>
+        </article>
 
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-
-          </section>
-
-        </div>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  B.Tech from Lovely Professional University, Punjab
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2023 — 2027</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Pursuing Bachelors in Technology in Computer Science and
+                  Engineering from Lovely Professional University, Punjab,
+                  India. Currently in my Second year.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">B.Tech from Lovely Professional University, Punjab</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">High School</h4>
 
-              <span>2023 — 2027</span>
+                <span>2021 — 2023</span>
 
-              <p class="timeline-text">
-                Pursuing Bachelors in Technology in Computer Science and Engineering from Lovely Professional University, Punjab, India.
-Currently in my Second year.
-              </p>
+                <p class="timeline-text">
+                  Completed high school education from DAV Public School, Bokaro
+                </p>
+              </li>
+            </ol>
+          </section>
 
-            </li>
+          <section class="tech-stack">
+            <!-- <h2><i class="fas fa-tools" style="margin-right: 8px;"></i>My Tech Stack</h2> -->
+            <div class="section-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h2 class="section-title">My Tech Stack</h2>
+            <div class="tech-icons">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+              />
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>shadcn/ui</title>
+                <path
+                  d="M22.219 11.784 11.784 22.219c-.407.407-.407 1.068 0 1.476.407.407 1.068.407 1.476 0L23.695 13.26c.407-.408.407-1.069 0-1.476-.408-.407-1.069-.407-1.476 0ZM20.132.305.305 20.132c-.407.407-.407 1.068 0 1.476.408.407 1.069.407 1.476 0L21.608 1.781c.407-.407.407-1.068 0-1.476-.408-.407-1.069-.407-1.476 0Z"
+                />
+              </svg>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg"
+              />
 
-            <li class="timeline-item">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg"
+              />
+            </div>
+          </section>
 
-              <h4 class="h4 timeline-item-title">High School</h4>
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
 
-              <span>2021 — 2023</span>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Development</h5>
+                  <data value="70">70%</data>
+                </div>
 
-              <p class="timeline-text">
-                Completed high school education from DAV Public School, Bokaro
-              </p>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
 
-            </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Structures and Algorithms</h5>
+                  <data value="75">75%</data>
+                </div>
 
-          </ol>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
 
-        </section>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">ExpressJS</h5>
+                  <data value="60">60%</data>
+                </div>
 
-  <section class="tech-stack">
-  <!-- <h2><i class="fas fa-tools" style="margin-right: 8px;"></i>My Tech Stack</h2> -->
-   <div class="section-icon">
-      <i class="fas fa-tools"></i>
-    </div>
-  <h2 class="section-title">My Tech Stack</h2>
-  <div class="tech-icons">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />    
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
-    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>shadcn/ui</title><path d="M22.219 11.784 11.784 22.219c-.407.407-.407 1.068 0 1.476.407.407 1.068.407 1.476 0L23.695 13.26c.407-.408.407-1.069 0-1.476-.408-.407-1.069-.407-1.476 0ZM20.132.305.305 20.132c-.407.407-.407 1.068 0 1.476.408.407 1.069.407 1.476 0L21.608 1.781c.407-.407.407-1.068 0-1.476-.408-.407-1.069-.407-1.476 0Z"/></svg>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg" />
-          
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/plotly/plotly-original.svg" />
-             
-            
-  </div>
-</section>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
 
-        <section class="skill">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React</h5>
+                  <data value="55">55%</data>
+                </div>
 
-          <h3 class="h3 skills-title">My skills</h3>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 55%"></div>
+                </div>
+              </li>
 
-          <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="75">75%</data>
+                </div>
 
-            <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Web Development</h5>
-                <data value="70">70%</data>
-              </div>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MongoDB</h5>
+                  <data value="75">75%</data>
+                </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
 
-            </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Tailwind CSS</h5>
+                  <data value="55">55%</data>
+                </div>
 
-            <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 55%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Data Structures and Algorithms</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">ExpressJS</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">React</h5>
-                <data value="55">55%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 55%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">MongoDB</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Tailwind CSS</h5>
-                <data value="55">55%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 55%;"></div>
-              </div>
-
-            </li>
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Projects</h2>
-        </header>
-
-        <section class="projects">
-
-
-            <button  data-select>
-
-
-              <div class="select-icon">
-              </div>
-
+          <section class="projects">
+            <button data-select>
+              <div class="select-icon"></div>
             </button>
 
-          <ul class="project-list">
+            <ul class="project-list">
+              <li class="project-item active" data-filter-item>
+                <a href="https://talksie.onrender.com/login">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-            <li class="project-item  active" data-filter-item >
-              <a href="https://talksie.onrender.com/login">
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="Talksy"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <h3 class="project-title">Talksy</h3>
 
-                  <img src="./assets/images/project-1.jpg" alt="Talksy" loading="lazy">
-                </figure>
+                  <p class="project-category">Real-time chat app</p>
+                  <a
+                    href="https://github.com/Minhaj078/Talksie"
+                    class="live-hover-btn"
+                    >CODE</a
+                  >
+                </a>
+              </li>
 
-                <h3 class="project-title">Talksy</h3>
+              <li class="project-item active" data-filter-item>
+                <a href="https://aap-ka-bazar.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <p class="project-category">Real-time chat app</p>
-                <a href="https://github.com/Minhaj078/Talksie" class="live-hover-btn">CODE</a>
+                    <img
+                      src="./assets/images/project-2.jpg"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
 
-              </a>
-            </li>
+                  <h3 class="project-title">Ecommerce website</h3>
 
-            <li class="project-item  active" data-filter-item >
-              <a href="https://aap-ka-bazar.vercel.app/">
+                  <p class="project-category">Web development</p>
+                  <a
+                    href="https://github.com/Minhaj078/AapKaBazar"
+                    class="live-hover-btn"
+                    >CODE</a
+                  >
+                </a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li class="project-item active" data-filter-item>
+                <a href="https://namazi.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/project-2.jpg" alt="orizon" loading="lazy">
-                </figure>
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="Namazy"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <h3 class="project-title">Ecommerce website</h3>
+                  <h3 class="project-title">NAMAZY</h3>
 
-                <p class="project-category">Web development</p>
-                <a href="https://github.com/Minhaj078/AapKaBazar" class="live-hover-btn">CODE</a>
+                  <p class="project-category">prayer reminder application</p>
+                  <a
+                    href="https://github.com/Minhaj078/NamaZi"
+                    class="live-hover-btn"
+                    >CODE</a
+                  >
+                </a>
+              </li>
 
-              </a>
-            </li>
+              <li class="project-item active" data-filter-item>
+                <a href="https://minhaj078.github.io/TodoDashboard/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-            <li class="project-item  active" data-filter-item >
-              <a href="https://namazi.netlify.app/">
+                    <img
+                      src="./assets/images/project-4.jpg"
+                      alt="todo-app"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <h3 class="project-title">Todo-App</h3>
 
-                  <img src="./assets/images/project-3.jpg" alt="Namazy" loading="lazy">
-                </figure>
+                  <p class="project-category">Web design</p>
+                  <a
+                    href="https://github.com/Minhaj078/TodoDashboard"
+                    class="live-hover-btn"
+                    >CODE</a
+                  >
+                </a>
+              </li>
 
-                <h3 class="project-title">NAMAZY</h3>
+              <li class="project-item active" data-filter-item>
+                <a href="https://mybmiai.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <p class="project-category">prayer reminder application</p>
-                <a href="https://github.com/Minhaj078/NamaZi" class="live-hover-btn">CODE</a>
+                    <img
+                      src="./assets/images/project-5.jpg"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
 
-              </a>
-            </li>
+                  <h3 class="project-title">BMI-AI Calculator</h3>
 
-            <li class="project-item  active" data-filter-item >
-              <a href="https://minhaj078.github.io/TodoDashboard/">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <p class="project-category">Web design</p>
+                  <a
+                    href="https://github.com/Minhaj078/BMI_AI"
+                    class="live-hover-btn"
+                    >CODE</a
+                  >
+                </a>
+              </li>
 
-                  <img src="./assets/images/project-4.jpg" alt="todo-app" loading="lazy">
-                </figure>
+              <li class="project-item active" data-filter-item>
+                <a href="./assets/images/project-6.jpg">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <h3 class="project-title">Todo-App</h3>
+                    <img
+                      src="./assets/images/project-6.jpg"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <p class="project-category"></p>
-                <a href="https://github.com/Minhaj078/TodoDashboard" class="live-hover-btn">CODE</a>
+                  <h3 class="project-title">Python- EDA</h3>
 
-              </a>
-            </li>
+                  <p class="project-category">Web design</p>
+                  <a
+                    href="https://github.com/Minhaj078/Python_Project"
+                    class="live-hover-btn"
+                    >CODE</a
+                  >
+                </a>
+              </li>
 
-            <li class="project-item  active" data-filter-item >
-              <a href="https://mybmiai.netlify.app/">
+              <li class="project-item active" data-filter-item>
+                <a href="https://minhaj078.github.io/Sorting-Visualizer/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                    <img
+                      src="./assets/images/project-7.jpg"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <img src="./assets/images/project-5.jpg" alt="dsm." loading="lazy">
-                </figure>
+                  <h3 class="project-title">Sorting Visualizer</h3>
 
-                <h3 class="project-title">BMI-AI Calculator</h3>
+                  <p class="project-category">Web development</p>
+                  <a
+                    href="https://github.com/Minhaj078/Sorting-Visualizer"
+                    class="live-hover-btn"
+                    >CODE</a
+                  >
+                </a>
+              </li>
 
-                <p class="project-category">Web design</p>
-                <a href="https://github.com/Minhaj078/BMI_AI" class="live-hover-btn">CODE</a>
+              <li class="project-item active" data-filter-item>
+                <a href="https://minhaj078.github.io/SudoKo/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
+                    <img
+                      src="./assets/images/project-8.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
 
-            <li class="project-item  active" data-filter-item >
-              <a href="./assets/images/project-6.jpg">
+                  <h3 class="project-title">Soduku solver</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <p class="project-category">Applications</p>
+                  <a
+                    href="https://github.com/Minhaj078/SudoKo"
+                    class="live-hover-btn"
+                    >CODE</a
+                  >
+                </a>
+              </li>
 
-                  <img src="./assets/images/project-6.jpg" alt="metaspark" loading="lazy">
-                </figure>
+              <li class="project-item active" data-filter-item>
+                <a href="https://minhaj078.github.io/SudoKo/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <h3 class="project-title">Python- EDA</h3>
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <p class="project-category">Web design</p>
-                <a href="https://github.com/Minhaj078/Python_Project" class="live-hover-btn">CODE</a>
+                  <h3 class="project-title">
+                    Smart Ai Attendance Management System
+                  </h3>
 
-              </a>
-            </li>
+                  <p class="project-category">Applications</p>
+                  <a
+                    href="https://github.com/Minhaj078/Smart_Attendance_AI"
+                    class="live-hover-btn"
+                    >CODE</a
+                  >
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
 
-            <li class="project-item  active" data-filter-item >
-              <a href="https://minhaj078.github.io/Sorting-Visualizer/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.jpg" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Sorting Visualizer</h3>
-
-                <p class="project-category">Web development</p>
-                <a href="https://github.com/Minhaj078/Sorting-Visualizer" class="live-hover-btn">CODE</a>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item >
-              <a href="https://minhaj078.github.io/SudoKo/">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Soduku solver</h3>
-
-                <p class="project-category">Applications</p>
-                <a href="https://github.com/Minhaj078/SudoKo" class="live-hover-btn">CODE</a>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
